@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AOC_TouristElderly
+  m_Controller: {fileID: 9100000, guid: 3053950ce184b426eb5232c336664b12, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 74fa9ea9dadef4110b1b3bb0fbfd1e46, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: ff227b5a714e942a58eb919e4470c010, type: 3}

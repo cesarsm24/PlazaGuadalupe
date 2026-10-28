@@ -1,0 +1,14 @@
+Texturas de ambientCG (https://ambientcg.com), licencia CC0 1.0 Universal (dominio público).
+
+PavingStones128   Pavimento de losas de granito de la plaza
+PavingStones070   Empedrado de las calles
+Plaster002        Encalado de fachadas
+RoofingTiles014B  Teja árabe envejecida
+Bricks100         Mampostería del monasterio
+Tiles143          Sillería de la fachada gótica
+Concrete036       Granito de escalinata, pretiles, bolardos y fuente
+Ground103         Tierra fuera del casco urbano
+Planks037A        Madera de los bancos
+Planks023A        Madera envejecida de vigas y techos de los soportales
+
+Se usan solo los mapas de color y normales (OpenGL) a 1K.

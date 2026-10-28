@@ -1,0 +1,64 @@
+# Normalización de finales de línea
+* text=auto
+
+# Ficheros YAML de Unity: fusión con UnityYAMLMerge
+*.unity    merge=unityyamlmerge eol=lf
+*.prefab   merge=unityyamlmerge eol=lf
+*.asset    merge=unityyamlmerge eol=lf
+*.mat      merge=unityyamlmerge eol=lf
+*.anim     merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.meta     merge=unityyamlmerge eol=lf
+*.terrainlayer merge=unityyamlmerge eol=lf
+*.preset   merge=unityyamlmerge eol=lf
+*.lighting merge=unityyamlmerge eol=lf
+*.mixer    merge=unityyamlmerge eol=lf
+*.mask     merge=unityyamlmerge eol=lf
+*.overrideController merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.playable merge=unityyamlmerge eol=lf
+*.spriteatlas merge=unityyamlmerge eol=lf
+
+# Datos de iluminación horneada: binarios aunque tengan extensión .asset
+LightingData.asset binary
+
+# Código y datos
+*.cs   text diff=csharp
+*.json text
+*.md   text
+
+# Binarios grandes con Git LFS
+# Modelos 3D
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+# Texturas e imágenes
+*.png filter=lfs diff=lfs merge=lfs -text
+*.PNG filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+# Audio y vídeo
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+# Terreno y datos binarios
+*.raw filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+
+# Datos horneados o regenerables (mallas, terreno, NavMesh y oclusión): binarios grandes, a LFS.
+Assets/_Guadalupe/Art/Models/Generated/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/_Guadalupe/Art/Terrain/TD_*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/_Guadalupe/Scenes/PlazaGuadalupe/NavMesh-*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/_Guadalupe/Scenes/PlazaGuadalupe/OcclusionCullingData.asset filter=lfs diff=lfs merge=lfs -text
+# Fuentes de la interfaz: el atlas va dentro del asset y pesa varios MB.
+Assets/_Guadalupe/Art/Fonts/FA_*.asset filter=lfs diff=lfs merge=lfs -text

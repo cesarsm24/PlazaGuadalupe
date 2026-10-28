@@ -1,0 +1,21 @@
+{
+    "name": "Guadalupe.Editor.MonasteryExport",
+    "rootNamespace": "Guadalupe.Editor.MonasteryExport",
+    "references": [
+        "Guadalupe.Core",
+        "Guadalupe.Ambience",
+        "Guadalupe.Editor",
+        "Unity.Formats.Fbx.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

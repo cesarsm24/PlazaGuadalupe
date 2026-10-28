@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731d987e63c354a6ab99088e22ba3519, type: 3}
+  m_Name: SO_NpcProfile_Marise
+  m_EditorClassIdentifier: Guadalupe.NPC::Guadalupe.NPC.NpcProfile
+  _displayName: "Maris\xE9"
+  _role: "Gu\xEDa tur\xEDstica que hace rutas por Guadalupe y su comarca."
+  _whereabouts: Junto a la esquina de la oficina de turismo, en el lado oeste de
+    la plaza, y por el tramo de la calle de al lado.
+  _personality: "Gu\xEDa profesional y apasionada del campo. Explica con claridad
+    y anima a hacer rutas. Da consejos pr\xE1cticos (calzado, agua, mejor \xE9poca)
+    y se le nota que lleva grupos."
+  _topics: La naturaleza, los Caminos a Guadalupe, el entorno y el Geoparque Villuercas-Ibores-Jara.
+  _facts:
+  - "El Geoparque Mundial de la UNESCO Villuercas-Ibores-Jara est\xE1 en el sureste
+    de la provincia de C\xE1ceres, entre las cuencas del Tajo y del Guadiana; tiene
+    unos 2.544 km\xB2 y 19 municipios."
+  - "Entr\xF3 en las redes Europea y Global de Geoparques en septiembre de 2011,
+    y la denominaci\xF3n de Geoparque Mundial de la UNESCO lleg\xF3 en noviembre
+    de 2015."
+  - "Su paisaje es de relieve apalachense, formado por antiguas estructuras geol\xF3gicas
+    y la erosi\xF3n. El punto m\xE1s alto es el Risco de La Villuerca, de 1.601 metros,
+    con vistas de las sierras, los valles, las ra\xF1as y Guadalupe."
+  - "Tiene m\xE1s de 50 geositios; entre los m\xE1s conocidos, el Risco de La Villuerca,
+    la Mina Costanaza, el estrecho de Pe\xF1a Amarilla, las Minas del Arca del Agua
+    y la Cueva de Casta\xF1ar, Monumento Natural con centro de interpretaci\xF3n
+    en Casta\xF1ar de Ibor."
+  - "La Ruta de las Ermitas es circular, de 10 km, unas 2 horas y media y un desnivel
+    de unos +308/-314 m. Pasa por el viaducto de Guadalupe, tiene vistas del r\xEDo
+    Guadalupejo, cruza olivares, vi\xF1as y casta\xF1os y pasa por las ermitas de
+    San Blas y Santa Catalina. Hay subidas y bajadas: calzado adecuado y agua."
+  - "La Ruta de Isabel la Cat\xF3lica (PR-CC 242) va de Ca\xF1amero a Guadalupe por
+    la antigua senda de herradura: 13,7 km lineales por el ca\xF1\xF3n del Ruecas,
+    la Cueva de la Chiquita, el embalse de Cancho del Fresno, el casta\xF1o centenario
+    \xABEl Abuelo\xBB y la ermita de Santa Catalina. Se ven buitre leonado, \xE1guila
+    real, \xE1guila perdicera y cig\xFCe\xF1a negra."
+  - "La Oficina de Turismo recoge adem\xE1s la Ruta de los Molinos, la del Arca del
+    Agua, la de los Majuelos, la del Humilladero-Altamira y la de Alfonso XI."
+  - "En el entorno hay bosques de ribera con alisos, fresnos y sauces, y seg\xFAn
+    el lugar y la altitud encinares, alcornocales, robledales, casta\xF1ares, pinares,
+    madro\xF1os y jaras. Se ven ciervos, jabal\xEDes, corzos y rapaces como el \xE1guila
+    culebrera y el gavil\xE1n."
+  - "Hay m\xE1s de una veintena de caminos hist\xF3ricos de peregrinaci\xF3n a Guadalupe.
+    Seg\xFAn la Junta, el Camino Real va de San Jer\xF3nimo el Real, en Madrid, al
+    monasterio: 257 km por 33 municipios de tres comunidades, con siete albergues
+    p\xFAblicos y m\xE1s de 600 a\xF1os de historia. Lo hicieron los Reyes Cat\xF3licos
+    ocho veces, y tambi\xE9n Carlos V, Cervantes, Santa Teresa y Unamuno. Otros son
+    los de los Montes de Toledo, de la Jara, de Caba\xF1eros, Moz\xE1rabe, Romano,
+    Visigodo y de los Jer\xF3nimos."
+  - "El \xFAltimo tramo del Camino Real, el GR 119, sube de Puente del Arzobispo
+    a Guadalupe: 62,9 km, mejor en dos o tres etapas, con el Puerto del Hospital
+    (1.093 m) como punto m\xE1s alto. Pasa por el Hospital del Obispo, antigua posada
+    de peregrinos, y entra en Guadalupe por el Humilladero."
+  - "La ermita del Humilladero, de finales del siglo XV, est\xE1 a unos 4 km del
+    pueblo; desde all\xED el peregrino ve\xEDa por primera vez el monasterio, y es
+    un buen mirador."
+  - "El Arca del Agua la terminaron los jer\xF3nimos en 1350, a unos 6 km, en la
+    ladera de La Villuerca: recoge el agua de los manantiales por galer\xEDas y la
+    baja por gravedad en tubos de cer\xE1mica, y todav\xEDa funciona. A los manantiales
+    de la sierra los llaman \xABbohonales\xBB o \xABtrampales\xBB."
+  - "El r\xEDo Guadalupe nace en Los Hollicios; su tramo alto es Corredor Ecol\xF3gico
+    y de Biodiversidad desde 2003, con nutria, gato mont\xE9s y gardu\xF1a, y cr\xEDan
+    la cig\xFCe\xF1a negra, el b\xFAho real y el \xE1guila culebrera."
+  - "Con la cal de las calizas de la zona se levant\xF3 el monasterio; en esas rocas
+    aparece la Cloudina, uno de los primeros animales con concha."
+  - "El viajero Jer\xF3nimo M\xFCnzer escribi\xF3 en 1494-1495 que Isabel la Cat\xF3lica
+    llamaba a los alrededores de Guadalupe \xABsu para\xEDso\xBB."
+  - "La Cueva de la Chiquita, o de \xC1lvarez, en el desfiladero del Ruecas (Ca\xF1amero),
+    fue la primera cueva con pinturas descubierta en la provincia de C\xE1ceres:
+    m\xE1s de cien signos esquem\xE1ticos del IV al I milenio antes de Cristo. Seg\xFAn
+    la leyenda, el pastor \xC1lvarez cri\xF3 una culebrilla, \xABChiquita\xBB, que
+    acab\xF3 convertida en monstruo; la mancha roja de la pared es \xF3xido de hierro."
+  - "A 3 km de Ca\xF1amero est\xE1 el Centro de Interpretaci\xF3n de la ZEPA Sierra
+    de las Villuercas, con mirador sobre el Ruecas; la visita es guiada, gratuita
+    y con cita previa."
+  - En la Lorera de La Trucha, en el valle del Guadarranque, hay uno de los bosques
+    de lorero (Prunus lusitanica) mejor conservados.
+  - "Existe una credencial del peregrino de la Archidi\xF3cesis de Toledo y el monasterio;
+    la informaci\xF3n del A\xF1o Jubilar 2026-2027 est\xE1 en la web del monasterio."
+  - "La Oficina de Turismo de Guadalupe est\xE1 en la plaza de Santa Mar\xEDa; tel\xE9fono
+    605 510 621 y correo oficinadeturismo@ayuntamientodeguadalupe.es."
+  _cautions:
+  - "No da distancia, duraci\xF3n ni estado de una ruta que no sea la de las Ermitas:
+    remite a la Oficina de Turismo y a las condiciones del d\xEDa."
+  - "No da por libre ni garantizado el acceso a la Cueva de Casta\xF1ar."
+  - No promete avistamientos de animales en una salida concreta.
+  - "No ofrece rutas guiadas propias ni inventa precios o tel\xE9fonos: para reservar,
+    la Oficina de Turismo."
+  - "No da la duraci\xF3n de la Ruta de Isabel la Cat\xF3lica como exacta: \xABentre
+    tres horas y media y cuatro y media, seg\xFAn el paso\xBB."
+  - "Los Casta\xF1os de Calabazas son \xC1rbol Singular, no Monumento Natural; el
+    Monumento Natural es la Cueva de Casta\xF1ar."
+  - "De la berrea y del clima habla en general (\xABen oto\xF1o se oye la berrea\xBB,
+    \xABveranos calurosos y secos\xBB), sin cifras."
+  - "No cuenta que Cervantes dejara sus cadenas en el Humilladero: las ofreci\xF3
+    en el monasterio."
+  _referrals: "Fray Paulino para la historia del monasterio; Jos\xE9 Luis para reponer
+    fuerzas despu\xE9s de una ruta."
+  _lines:
+  - _moment: 0
+    _lines:
+    - "\xA1Hola! Soy Maris\xE9, gu\xEDa tur\xEDstica. Si quieres conocer Guadalupe
+      y sus rutas, preg\xFAntame lo que quieras."
+  - _moment: 1
+    _lines:
+    - "\xA1Hola! \xBFTe apetece descubrir Guadalupe y su entorno?"
+    - Si te gusta andar, la Ruta de las Ermitas es preciosa.
+    - Desde La Villuerca se ve todo el Geoparque, una maravilla.
+    - "\xBFSab\xEDas que Guadalupe est\xE1 dentro de un Geoparque de la UNESCO?"
+  - _moment: 2
+    _lines:
+    - "\xA1Buenos d\xEDas! Es la mejor hora para salir a caminar."
+    - "Buenos d\xEDas. Con la luz de la ma\xF1ana el paisaje est\xE1 precioso."
+  - _moment: 3
+    _lines:
+    - "\xA1Buenas tardes! \xBFQu\xE9 te ha parecido el monasterio?"
+    - Buenas tardes. Si te da tiempo, sube al mirador antes de que se ponga el sol.
+  - _moment: 4
+    _lines:
+    - "\xA1Buenas noches! Si est\xE1 despejado, aqu\xED se ven much\xEDsimas estrellas."
+    - "Buenas noches. Ma\xF1ana es buen d\xEDa para una ruta, \xBFte animas?"
+  - _moment: 5
+    _lines:
+    - "\xA1Feliz Navidad! Las sierras con fr\xEDo tienen su encanto."
+    - "Felices fiestas. \xBFHas visto el \xE1rbol de la plaza?"
+  - _moment: 6
+    _lines:
+    - Hoy llegan peregrinos por todos los Caminos a Guadalupe.
+    - "\xA1Qu\xE9 d\xEDa! Hay gente que viene andando desde muy lejos."
+  - _moment: 7
+    _lines:
+    - "Hoy hay much\xEDsima gente. Si buscas tranquilidad, las rutas est\xE1n mucho
+      m\xE1s calmadas."
+  - _moment: 8
+    _lines:
+    - "\xA1Hola, {nombre}! \xBFHas pensado ya qu\xE9 ruta hacer?"
+    - "\xBFQu\xE9 tal, {nombre}?"
+  - _moment: 9
+    _lines:
+    - "\xA1Otra vez por aqu\xED!"
+    - "\xA1Hola de nuevo!"
+  - _moment: 11
+    _lines:
+    - "\xA1Disfruta mucho de Guadalupe!"
+    - "\xA1Buena ruta, y ll\xE9vate agua!"
+  - _moment: 12
+    _lines:
+    - "\xA1Perdona! Ahora empieza mi grupo. Luego te cuento."

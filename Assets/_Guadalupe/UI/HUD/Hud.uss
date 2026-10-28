@@ -1,0 +1,62 @@
+/* Todo lo de dentro es absoluto: sin ocupar la pantalla entera no mediría nada. */
+.hud-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.hud-bubble {
+    position: absolute;
+    translate: -50% -100%;
+    padding: 0 12px 4px 12px;
+    background-color: var(--color-panel);
+    border-width: 1px;
+    border-color: var(--color-line);
+    border-radius: 12px;
+    color: var(--color-gold);
+    font-size: 24px;
+    -unity-font-style: bold;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+
+.hud-bubble--hidden {
+    opacity: 0;
+}
+
+.hud-prompt {
+    position: absolute;
+    bottom: 132px;
+    left: 50%;
+    translate: -50% 0;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 18px;
+    background-color: var(--color-panel);
+    border-radius: 8px;
+}
+
+.hud-key {
+    margin-right: 12px;
+    padding: 0 9px;
+    border-width: 1px;
+    border-color: var(--color-gold);
+    border-radius: 4px;
+    color: var(--color-gold);
+    -unity-font-style: bold;
+}
+
+.hud-subtitle {
+    position: absolute;
+    bottom: 64px;
+    left: 18%;
+    right: 18%;
+    padding: 10px 18px;
+    background-color: var(--color-panel);
+    border-radius: 8px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    font-size: 20px;
+}

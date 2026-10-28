@@ -1,0 +1,277 @@
+.menu-root {
+    flex-grow: 1;
+}
+
+.menu-screen {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.menu-panel {
+    width: 660px;
+    padding: 40px 56px 32px 56px;
+    background-color: var(--color-panel);
+    border-right-width: 1px;
+    border-right-color: var(--color-line);
+}
+
+.menu-panel > * {
+    flex-shrink: 0;
+}
+
+.menu-spacer {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.overline {
+    color: var(--color-gold);
+    font-size: 15px;
+    letter-spacing: 3px;
+    -unity-font-style: bold;
+}
+
+.title {
+    -unity-font-definition: url("project://database/Assets/_Guadalupe/Art/Fonts/FA_Cinzel.asset");
+    font-size: 42px;
+    white-space: normal;
+    margin-top: 10px;
+}
+
+.intro {
+    color: var(--color-text-muted);
+    font-size: 18px;
+    white-space: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--color-line);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: var(--color-gold);
+    font-size: 14px;
+    letter-spacing: 2px;
+    -unity-font-style: bold;
+    margin-bottom: 12px;
+}
+
+.scenario-list {
+    margin-bottom: 20px;
+}
+
+.scenario-card {
+    margin: 0 0 10px 0;
+    padding: 12px 20px;
+    background-color: var(--color-surface);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    -unity-text-align: upper-left;
+    transition-duration: 0.15s;
+}
+
+.scenario-card:hover {
+    background-color: var(--color-surface-hover);
+}
+
+.scenario-card.selected {
+    border-color: var(--color-gold);
+    background-color: rgba(210, 174, 98, 0.14);
+}
+
+.scenario-card__header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scenario-card__title {
+    font-size: 23px;
+    -unity-font-style: bold;
+}
+
+.scenario-card__crowd {
+    color: var(--color-gold);
+    font-size: 15px;
+}
+
+.scenario-card__description {
+    color: var(--color-text-muted);
+    font-size: 16px;
+    white-space: normal;
+    margin-top: 4px;
+}
+
+.period-row {
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.period-button {
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    padding: 13px 0;
+    font-size: 19px;
+    background-color: var(--color-surface);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    color: var(--color-text);
+    transition-duration: 0.15s;
+}
+
+.period-button--last {
+    margin-right: 0;
+}
+
+.period-button:hover {
+    background-color: var(--color-surface-hover);
+}
+
+.period-button.selected {
+    border-color: var(--color-gold);
+    background-color: rgba(210, 174, 98, 0.14);
+    -unity-font-style: bold;
+}
+
+.primary-button {
+    -unity-text-align: middle-center;
+    margin: 0 0 12px 0;
+    padding: 16px 0;
+    font-size: 22px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    color: #1B140B;
+    background-color: var(--color-gold);
+    border-width: 0;
+    border-radius: 6px;
+    transition-duration: 0.15s;
+}
+
+.primary-button:hover {
+    background-color: #E2C27A;
+}
+
+.primary-button:active {
+    background-color: var(--color-gold-dark);
+}
+
+.secondary-row {
+    flex-direction: row;
+}
+
+.secondary-button {
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    padding: 11px 0;
+    font-size: 17px;
+    color: var(--color-text);
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-color: var(--color-line);
+    border-radius: 6px;
+    transition-duration: 0.15s;
+}
+
+.secondary-button--last {
+    margin-right: 0;
+}
+
+.secondary-button:hover {
+    background-color: var(--color-surface-hover);
+}
+
+.footer {
+    color: var(--color-text-muted);
+    font-size: 13px;
+    white-space: normal;
+    margin-top: 18px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.dialog {
+    width: 820px;
+    padding: 36px 44px;
+    background-color: rgba(22, 17, 12, 0.96);
+    border-width: 1px;
+    border-color: var(--color-line);
+    border-radius: 8px;
+}
+
+.dialog__title {
+    -unity-font-definition: url("project://database/Assets/_Guadalupe/Art/Fonts/FA_Cinzel.asset");
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.key-row {
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.key-row__key {
+    width: 210px;
+    color: var(--color-gold);
+    -unity-font-style: bold;
+}
+
+.key-row__action {
+    flex-grow: 1;
+    color: var(--color-text);
+}
+
+.credit-group {
+    margin-bottom: 12px;
+}
+
+.credit-group__title {
+    color: var(--color-gold);
+    font-size: 14px;
+    letter-spacing: 2px;
+    -unity-font-style: bold;
+    margin-bottom: 3px;
+}
+
+.credit-group__text {
+    color: var(--color-text-muted);
+    font-size: 15px;
+    white-space: normal;
+}
+
+.dialog__back {
+    margin-top: 18px;
+}
+
+.scenario-card:focus,
+.period-button:focus,
+.secondary-button:focus {
+    border-color: var(--color-text);
+}
+
+.primary-button:focus {
+    background-color: #E2C27A;
+    border-width: 2px;
+    border-color: var(--color-text);
+}
+
+.key-row__pad {
+    width: 190px;
+    color: var(--color-text-muted);
+}

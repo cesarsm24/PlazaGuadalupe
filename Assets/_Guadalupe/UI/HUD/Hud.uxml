@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="Hud.uss" />
+    <ui:VisualElement name="hudPrompt" class="hud-prompt" picking-mode="Ignore" style="display: none;">
+        <ui:Label name="hudKey" text="F" class="hud-key" picking-mode="Ignore" />
+        <ui:Label name="hudPromptText" picking-mode="Ignore" />
+    </ui:VisualElement>
+    <ui:Label name="hudSubtitle" class="hud-subtitle" picking-mode="Ignore" enable-rich-text="true" style="display: none;" />
+</ui:UXML>

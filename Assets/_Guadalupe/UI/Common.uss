@@ -1,0 +1,17 @@
+:root {
+    --color-text: #F4ECDD;
+    --color-text-muted: #BFB29C;
+    --color-gold: #D2AE62;
+    --color-gold-dark: #A8843E;
+    --color-panel: rgba(18, 14, 10, 0.86);
+    --color-surface: rgba(255, 244, 222, 0.06);
+    --color-surface-hover: rgba(255, 244, 222, 0.12);
+    --color-line: rgba(210, 174, 98, 0.35);
+    -unity-font-definition: url("project://database/Assets/_Guadalupe/Art/Fonts/FA_Lato.asset");
+    color: var(--color-text);
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}

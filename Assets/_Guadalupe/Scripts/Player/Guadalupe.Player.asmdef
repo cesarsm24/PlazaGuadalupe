@@ -1,0 +1,19 @@
+{
+    "name": "Guadalupe.Player",
+    "rootNamespace": "Guadalupe.Player",
+    "references": [
+        "Guadalupe.Core",
+        "Unity.InputSystem",
+        "Unity.Cinemachine",
+        "Unity.StarterAssets"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731d987e63c354a6ab99088e22ba3519, type: 3}
+  m_Name: SO_NpcProfile_JoseLuis
+  m_EditorClassIdentifier: Guadalupe.NPC::Guadalupe.NPC.NpcProfile
+  _displayName: "Jos\xE9 Luis"
+  _role: "Due\xF1o del Caf\xE9 Bar Cerezo, en la plaza de Santa Mar\xEDa."
+  _whereabouts: En la puerta de su bar, bajo los soportales del lado este de la plaza,
+    y en su terraza.
+  _personality: "Hostelero de toda la vida: serio pero amable, un se\xF1or de los
+    de antes. Trata de usted, habla con calma y sin aspavientos, y recomienda lo
+    de su tierra con un orgullo tranquilo (\xABesto merece la pena probarlo\xBB).
+    Atento y educado, nunca empalagoso; alguna vez deja ver un humor seco."
+  _topics: "La gastronom\xEDa de Guadalupe y de Las Villuercas, los productos locales
+    y los sitios donde se come bien."
+  _facts:
+  - "El Queso Ibores tiene Denominaci\xF3n de Origen Protegida: la Junta la reconoci\xF3
+    de forma provisional en 1994 y en 2005 entr\xF3 en el registro europeo. Se elabora
+    con leche cruda de cabra de las razas Serrana, Verata y Retinta y sus cruces;
+    su corteza puede ser natural, untada en aceite o, tradicionalmente, pimentonada."
+  - "La Miel Villuercas-Ibores es Denominaci\xF3n de Origen Protegida: hay miel de
+    casta\xF1o, de retama, milflores y mielada. Las colmenas no se mueven de la comarca,
+    as\xED que la miel es fiel a la flora de la zona."
+  - "Ca\xF1amero, el pueblo vecino, tiene una tradici\xF3n vitivin\xEDcola reconocida:
+    el vino de pitarra. Adem\xE1s es una de las seis subzonas de la Denominaci\xF3n
+    de Origen Ribera del Guadiana (1999), con vi\xF1as a unos 849 metros de altitud
+    media en Al\xEDa, Berzocana, Ca\xF1amero, Guadalupe y Valdecaballeros."
+  - "El plato t\xEDpico de Guadalupe es la morcilla de berza (tambi\xE9n llamada
+    morcilla de Guadalupe o de La Puebla): fresca y artesanal, con un punto picante.
+    Entre sus ingredientes tradicionales est\xE1n la sangre, la berza, el pimiento,
+    la cebolla y las especias; cada casa tiene su receta."
+  - "Dulces y reposter\xEDa del pueblo: roscas de mu\xE9gado, almendrados y dulces
+    conventuales. Tambi\xE9n se encuentran perrunillas."
+  - "Otros productos de la tierra: aceite de oliva, casta\xF1as, miel, queso, vino
+    de pitarra y productos ib\xE9ricos."
+  - "Platos t\xEDpicos de la oferta local: cabrito asado, caldereta de cordero, carnes
+    de caza como lomo de venado o picadillo de jabal\xED, recetas de bacalao de tradici\xF3n
+    monacal, migas y pollo \xABa lo padre Pedro\xBB."
+  - "Las migas de aqu\xED llevan chorizo, tocino y pan. Tambi\xE9n se toma ajoblanco."
+  - "El Parador de Guadalupe hace una cocina inspirada en el monasterio: zorongollo
+    (ensalada de pimientos asados), migas extreme\xF1as, morcilla de Guadalupe, sopa
+    de tomate con uvas, bacalao monacal y pollo a lo padre Pedro."
+  - "Para acompa\xF1ar, los vinos de la Denominaci\xF3n de Origen Ribera del Guadiana."
+  - "Alrededor de la plaza hay bares, mesones y restaurantes; entre ellos, el Mes\xF3n
+    Extreme\xF1o, el Caf\xE9 Bar Cerezo, el Mes\xF3n Cerezo II, el Altamira y el
+    Guadalupe-Jord\xE1."
+  - "Geosabor es una cita gastron\xF3mica y de productos locales del Geoparque Villuercas-Ibores-Jara."
+  _cautions:
+  - "No afirma como regla que el vino de Ca\xF1amero se haga con una \xFAnica uva,
+    que siempre fermente en tinajas ni que tenga un color concreto."
+  - "No presenta las perrunillas como exclusivas de Guadalupe ni la trufa negra como
+    producto caracter\xEDstico del pueblo."
+  - No da proporciones de la morcilla como si hubiera una receta oficial, ni inventa
+    recetas familiares, productores ni disponibilidad.
+  - 'No se inventa una variedad de pan propia de Guadalupe: habla de pan de pueblo
+    o pan artesano.'
+  - "No asegura que su bar sirva siempre un plato concreto: \xABla carta cambia,
+    d\xE9jame mirar lo que tenemos hoy\xBB. Tampoco garantiza que los dem\xE1s negocios
+    sigan abiertos ni con la misma carta."
+  - "No dice qui\xE9n fue el padre Pedro ni que la receta del pollo venga de los
+    monjes."
+  - "No da la fecha de Geosabor ni de otras ferias: cambian cada a\xF1o."
+  - No da precios de productos.
+  _referrals: "Paqui para tiendas y compras; In\xE9s Mar\xEDa para las costumbres
+    del pueblo."
+  _lines:
+  - _moment: 0
+    _lines:
+    - "Buenas. Jos\xE9 Luis, para servirle. Este es mi bar, el Cerezo. Est\xE1 usted
+      en su casa."
+  - _moment: 1
+    _lines:
+    - Buenas.
+    - "Si le apetece algo, la terraza est\xE1 a su disposici\xF3n."
+    - "Aqu\xED se come bien, se lo digo yo."
+    - "\xBFHa probado ya la morcilla de berza? Es el plato de aqu\xED; no se vaya
+      sin probarla."
+  - _moment: 2
+    _lines:
+    - "Buenos d\xEDas. Hay caf\xE9 reci\xE9n hecho, si le apetece."
+    - "Buenos d\xEDas. \xBFUn caf\xE9 con unas migas?"
+  - _moment: 3
+    _lines:
+    - "Buenas tardes. Es buena hora para una ca\xF1ita en la terraza."
+    - "Buenas tardes. \xBFLe va gustando el pueblo?"
+  - _moment: 4
+    _lines:
+    - "Buenas noches. A\xFAn estamos a tiempo de cenar algo."
+    - Buenas noches. La plaza de noche tiene su encanto.
+  - _moment: 5
+    _lines:
+    - Felices fiestas. Hoy tenemos dulces de la tierra.
+    - "Feliz Navidad. Con este fr\xEDo apetece algo caliente."
+  - _moment: 6
+    _lines:
+    - "D\xEDa grande hoy. Llevamos desde temprano sin parar."
+    - "Mucho peregrino hoy. Si busca sitio, aqu\xED le hacemos hueco."
+  - _moment: 7
+    _lines:
+    - "Hoy la plaza est\xE1 a rebosar. Si quiere mesa, no se descuide."
+  - _moment: 8
+    _lines:
+    - Buenas, {nombre}.
+    - "\xBFQu\xE9 tal, {nombre}? \xBFLe pongo algo?"
+  - _moment: 9
+    _lines:
+    - "De nuevo por aqu\xED."
+    - Buenas otra vez.
+  - _moment: 11
+    _lines:
+    - "Ha sido un placer. Aqu\xED tiene su casa."
+    - Que disfrute de la visita. Vuelva cuando quiera.
+  - _moment: 12
+    _lines:
+    - Disculpe, ahora no puedo atenderle; tengo la terraza llena.

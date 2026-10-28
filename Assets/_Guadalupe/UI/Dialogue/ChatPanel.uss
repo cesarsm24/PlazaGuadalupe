@@ -1,0 +1,267 @@
+.chat-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.chat-panel {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    bottom: 32px;
+    width: 500px;
+    padding: 26px 28px 18px 28px;
+    background-color: var(--color-panel);
+    border-width: 1px;
+    border-color: var(--color-line);
+    border-radius: 10px;
+    opacity: 1;
+    translate: 0 0;
+    transition-property: opacity, translate;
+    transition-duration: 0.25s, 0.25s;
+    transition-timing-function: ease-out-cubic, ease-out-cubic;
+}
+
+.chat-panel--hidden {
+    opacity: 0;
+    translate: 24px 0;
+}
+
+.chat-overline {
+    color: var(--color-gold);
+    font-size: 13px;
+    letter-spacing: 3px;
+    -unity-font-style: bold;
+}
+
+.chat-name {
+    -unity-font-definition: url("project://database/Assets/_Guadalupe/Art/Fonts/FA_Cinzel.asset");
+    font-size: 32px;
+    margin-top: 4px;
+}
+
+.chat-role {
+    color: var(--color-text-muted);
+    font-size: 16px;
+    white-space: normal;
+}
+
+.chat-divider {
+    height: 1px;
+    margin: 16px 0 6px 0;
+    background-color: var(--color-line);
+}
+
+.chat-log {
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+/* El tema no trae los estilos de Unity: sin esto, los mensajes que quedan fuera se pintan encima de la cabecera. */
+.chat-log .unity-scroll-view__content-viewport {
+    overflow: hidden;
+}
+
+.chat-log .unity-scroll-view__content-container {
+    flex-shrink: 0;
+    padding: 10px 0;
+}
+
+/* Lo que encoge cuando no cabe todo es la lista de mensajes, no la cabecera ni el campo de escribir. */
+.chat-header,
+.chat-divider,
+.chat-compose,
+.chat-hints {
+    flex-shrink: 0;
+}
+
+.chat-log .unity-scroller--vertical {
+    width: 6px;
+    opacity: 0.5;
+}
+
+.chat-log .unity-scroller--vertical .unity-base-slider__dragger {
+    background-color: var(--color-line);
+    border-width: 0;
+    border-radius: 3px;
+}
+
+.chat-log .unity-scroller--vertical .unity-base-slider__tracker,
+.chat-log .unity-scroller--vertical .unity-repeat-button {
+    display: none;
+}
+
+.chat-message {
+    max-width: 380px;
+    overflow: hidden;
+    margin: 6px 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+    white-space: normal;
+    font-size: 18px;
+}
+
+.chat-message--character {
+    align-self: flex-start;
+    background-color: var(--color-surface);
+    border-left-width: 2px;
+    border-left-color: var(--color-gold);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.chat-message--player {
+    align-self: flex-end;
+    background-color: rgba(210, 174, 98, 0.16);
+    color: #FBF3E4;
+}
+
+.chat-typing {
+    align-self: flex-start;
+    margin: 6px 0;
+    padding: 4px 14px 8px 14px;
+    background-color: var(--color-surface);
+    border-radius: 8px;
+    color: var(--color-gold);
+    font-size: 24px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    transition-property: opacity;
+    transition-duration: 0.45s;
+}
+
+.chat-typing--dim {
+    opacity: 0.35;
+}
+
+.chat-notice {
+    align-self: center;
+    margin: 8px 12px;
+    color: var(--color-text-muted);
+    font-size: 15px;
+    -unity-font-style: italic;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.chat-compose {
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.chat-input-box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    max-height: 112px;
+    margin-right: 10px;
+    overflow: hidden;
+    background-color: var(--color-surface);
+    border-width: 1px;
+    border-color: var(--color-line);
+    border-radius: 6px;
+}
+
+.chat-input-box .unity-scroll-view__content-container {
+    flex-shrink: 0;
+}
+
+.chat-input-box--focused {
+    border-color: var(--color-gold);
+}
+
+.chat-input-box .unity-scroller--vertical {
+    width: 6px;
+    margin: 4px 2px 4px 0;
+}
+
+.chat-input-box .unity-scroller--vertical .unity-base-slider__dragger {
+    background-color: var(--color-line);
+    border-width: 0;
+    border-radius: 3px;
+}
+
+.chat-input-box .unity-scroller--vertical .unity-base-slider__tracker,
+.chat-input-box .unity-scroller--vertical .unity-repeat-button {
+    display: none;
+}
+
+.chat-input {
+    margin: 0;
+}
+
+/* El campo crece con el texto; el recuadro y el desplazamiento son de chat-input-box. */
+.chat-input > .unity-text-field__input {
+    min-height: 44px;
+    padding: 10px 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    color: var(--color-text);
+    font-size: 18px;
+    white-space: normal;
+    --unity-cursor-color: var(--color-gold);
+    --unity-selection-color: rgba(210, 174, 98, 0.35);
+}
+
+.chat-input .unity-text-element {
+    white-space: normal;
+}
+
+.chat-input .unity-base-text-field__input--placeholder {
+    color: var(--color-text-muted);
+}
+
+.chat-send {
+    flex-shrink: 0;
+    height: 46px;
+    margin: 0;
+    padding: 0 18px;
+    white-space: nowrap;
+    background-color: var(--color-gold);
+    border-width: 0;
+    border-radius: 6px;
+    color: #1B140B;
+    font-size: 17px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    transition-property: background-color, opacity;
+    transition-duration: 0.15s;
+}
+
+.chat-send:hover {
+    background-color: #E0C27F;
+}
+
+.chat-send:disabled {
+    opacity: 0.4;
+}
+
+.chat-hints {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.chat-key {
+    padding: 0 7px;
+    border-width: 1px;
+    border-color: var(--color-line);
+    border-radius: 4px;
+    color: var(--color-gold);
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+
+.chat-key--spaced {
+    margin-left: 16px;
+}
+
+.chat-hint {
+    margin-left: 6px;
+    color: var(--color-text-muted);
+    font-size: 14px;
+}

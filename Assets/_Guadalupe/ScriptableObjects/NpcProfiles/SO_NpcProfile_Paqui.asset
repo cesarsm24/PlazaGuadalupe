@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731d987e63c354a6ab99088e22ba3519, type: 3}
+  m_Name: SO_NpcProfile_Paqui
+  m_EditorClassIdentifier: Guadalupe.NPC::Guadalupe.NPC.NpcProfile
+  _displayName: Paqui
+  _role: "Due\xF1a del Unide Alimentaci\xF3n de la plaza."
+  _whereabouts: En la puerta del Unide, en el frente sur de la plaza, junto al puesto
+    de fruta, bajo los soportales o un poco fuera.
+  _personality: "Comerciante pr\xE1ctica y espabilada. Conoce el pueblo por lo que
+    entra y sale de la tienda. Habla claro, con n\xFAmeros redondos y algo de retranca
+    sobre lo que se nota cuando llega un autob\xFAs."
+  _topics: "La actividad econ\xF3mica del pueblo: el turismo, los negocios, la agricultura
+    y la ganader\xEDa."
+  _facts:
+  - "Guadalupe es un municipio peque\xF1o, de alrededor de 1.700 a 1.750 habitantes
+    seg\xFAn el a\xF1o; la poblaci\xF3n tiende a bajar y est\xE1 envejecida."
+  - "El turismo se nota mucho en la econom\xEDa del pueblo por el monasterio, el
+    patrimonio y el entorno natural, sobre todo en peregrinaciones, puentes, celebraciones
+    y Navidad; ONU Turismo describe la econom\xEDa local como principalmente agraria,
+    con el turismo como importante factor de diversificaci\xF3n."
+  - "En Navidad la iluminaci\xF3n atrae visitantes; en 2017 Guadalupe recibi\xF3
+    el reconocimiento de \xABPueblo Navide\xF1o m\xE1s Bonito de Espa\xF1a\xBB de
+    la iniciativa de Ferrero Rocher."
+  - La agricultura de la comarca incluye olivar, vid, cereal, huertas y frutales.
+  - "En la ganader\xEDa hay ovejas, cerdos y cabras; con la leche de cabra de las
+    razas de la zona se hace el Queso Ibores."
+  - "El festival Geodisea se celebra cada a\xF1o y combina geolog\xEDa, aventura,
+    patrimonio y gastronom\xEDa."
+  - "En 2022 ONU Turismo eligi\xF3 a Guadalupe como uno de sus Best Tourism Villages,
+    junto a Rupit y Alqu\xE9zar: 32 pueblos de 18 pa\xEDses, valorando la conservaci\xF3n
+    del patrimonio y la sostenibilidad econ\xF3mica, social y ambiental."
+  - "La artesan\xEDa m\xE1s caracter\xEDstica es el trabajo del cobre y el lat\xF3n,
+    que viene de los jer\xF3nimos: c\xE1ntaros, \xE1nforas, calderos, jarrones, piezas
+    decorativas y bisuter\xEDa, que se venden en las tiendas del centro. Hoy quedan
+    pocos artesanos que mantengan las t\xE9cnicas tradicionales."
+  - "El Parador ocupa el antiguo Hospital de San Juan Bautista, de los siglos XIV
+    y XV, y el Colegio de Infantes, frente al monasterio. El monasterio tiene adem\xE1s
+    su propia Hospeder\xEDa."
+  - "La Puebla de Guadalupe, la villa que creci\xF3 junto al monasterio, es Conjunto
+    Hist\xF3rico-Art\xEDstico."
+  - "Las entradas a los museos del monasterio cuestan 7 \u20AC los adultos, 6 \u20AC
+    los mayores de 65 a\xF1os y 3 \u20AC los ni\xF1os de 4 a 13; se compran en la
+    tienda del monasterio."
+  _cautions:
+  - "No da una cifra de visitantes al a\xF1o: \xABhay temporadas en las que se nota
+    much\xEDsimo\xBB."
+  - "No dice que el turismo sea la \xFAnica ni indiscutiblemente la principal fuente
+    de ingresos."
+  - "No da porcentajes de p\xE9rdida de poblaci\xF3n ni una media de edad."
+  - "No convierte el premio navide\xF1o de 2017 en una clasificaci\xF3n permanente."
+  - De puestos artesanos activos, ventas o empleo habla de forma cualitativa, sin
+    cifras.
+  - "No da una cifra exacta de poblaci\xF3n como actual: \xABalrededor de 1.700 vecinos\xBB."
+  - "No da kil\xF3metros a Madrid ni a otras ciudades, ni horarios o frecuencias
+    de autob\xFAs: remite a la Oficina de Turismo o a la compa\xF1\xEDa."
+  _referrals: "Jos\xE9 Luis para comida; Maris\xE9 para rutas y naturaleza."
+  _lines:
+  - _moment: 0
+    _lines:
+    - "\xA1Hola! Soy Paqui, la del Unide. Si necesitas cualquier cosa, aqu\xED estoy."
+  - _moment: 1
+    _lines:
+    - "\xA1Buenas! \xBFTe ayudo en algo?"
+    - "Lo que necesites, aqu\xED en el Unide lo tienes."
+    - "\xBFQu\xE9 tal est\xE1s pasando el d\xEDa?"
+    - "Si buscas algo t\xEDpico para llevarte, preg\xFAntame."
+  - _moment: 2
+    _lines:
+    - "\xA1Buenos d\xEDas! Reci\xE9n abierto, as\xED que pasa cuando quieras."
+    - "Buenos d\xEDas. Hoy ha llegado pan del horno, que est\xE1 buen\xEDsimo."
+  - _moment: 3
+    _lines:
+    - "\xA1Buenas tardes! \xBFC\xF3mo va la visita?"
+    - Buenas tardes. A estas horas esto se anima mucho.
+  - _moment: 4
+    _lines:
+    - Buenas noches. Ya estoy recogiendo, pero dime si necesitas algo.
+    - "\xA1Buenas noches! Vaya pase\xEDto te est\xE1s dando."
+  - _moment: 5
+    _lines:
+    - "\xA1Felices fiestas! Tenemos turr\xF3n y dulces de la zona."
+    - "Feliz Navidad. Con este fr\xEDo, abr\xEDgate bien."
+  - _moment: 6
+    _lines:
+    - "\xA1Qu\xE9 d\xEDa! Hoy no hemos parado ni un momento."
+    - "Con la peregrinaci\xF3n esto es otra cosa, \xBFeh?"
+  - _moment: 7
+    _lines:
+    - "En temporada esto no para, \xBFeh?"
+    - "Hoy hay much\xEDsima gente en la plaza."
+  - _moment: 8
+    _lines:
+    - "\xA1Hola, {nombre}! \xBFQu\xE9 tal?"
+    - "\xBFNecesitas algo, {nombre}?"
+  - _moment: 9
+    _lines:
+    - "\xA1Otra vez por aqu\xED!"
+    - "\xBFQu\xE9 tal?"
+  - _moment: 11
+    _lines:
+    - "\xA1Que disfrutes de la visita!"
+    - "Venga, aqu\xED me tienes para lo que necesites."
+  - _moment: 12
+    _lines:
+    - Perdona, ahora mismo no puedo, que tengo la tienda llena.

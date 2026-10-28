@@ -1,0 +1,62 @@
+# Convenciones de código del proyecto
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{json,asmdef,yml,yaml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.cs]
+# Organización
+dotnet_sort_system_directives_first = true
+csharp_using_directive_placement = outside_namespace:warning
+csharp_style_namespace_declarations = block_scoped:warning
+
+# Llaves y espacios (estilo Allman)
+csharp_new_line_before_open_brace = all
+csharp_prefer_braces = true:warning
+
+# var solo cuando el tipo es evidente
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_for_built_in_types = false:suggestion
+csharp_style_var_elsewhere = false:suggestion
+
+# Nombres: tipos, métodos y propiedades en PascalCase
+dotnet_naming_symbols.types_and_members.applicable_kinds = class, struct, interface, enum, method, property, event
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+dotnet_naming_rule.types_and_members_pascal.symbols = types_and_members
+dotnet_naming_rule.types_and_members_pascal.style = pascal_case
+dotnet_naming_rule.types_and_members_pascal.severity = warning
+
+# Interfaces con prefijo I
+dotnet_naming_symbols.interfaces.applicable_kinds = interface
+dotnet_naming_style.prefix_i.required_prefix = I
+dotnet_naming_style.prefix_i.capitalization = pascal_case
+dotnet_naming_rule.interfaces_prefix_i.symbols = interfaces
+dotnet_naming_rule.interfaces_prefix_i.style = prefix_i
+dotnet_naming_rule.interfaces_prefix_i.severity = warning
+
+# Campos privados: _camelCase
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+dotnet_naming_style.underscore_camel.required_prefix = _
+dotnet_naming_style.underscore_camel.capitalization = camel_case
+dotnet_naming_rule.private_fields_underscore.symbols = private_fields
+dotnet_naming_rule.private_fields_underscore.style = underscore_camel
+dotnet_naming_rule.private_fields_underscore.severity = warning
+
+# Constantes en PascalCase
+dotnet_naming_symbols.constants.applicable_kinds = field
+dotnet_naming_symbols.constants.required_modifiers = const
+dotnet_naming_rule.constants_pascal.symbols = constants
+dotnet_naming_rule.constants_pascal.style = pascal_case
+dotnet_naming_rule.constants_pascal.severity = warning

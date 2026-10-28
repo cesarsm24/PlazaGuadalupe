@@ -1,0 +1,16 @@
+{
+    "name": "Guadalupe.Ambience",
+    "rootNamespace": "Guadalupe.Ambience",
+    "references": [
+        "Guadalupe.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

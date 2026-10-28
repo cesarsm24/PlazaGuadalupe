@@ -1,0 +1,6 @@
+Fuentes de Google Fonts (https://github.com/google/fonts), con licencia SIL Open Font License 1.1:
+- UnifrakturMaguntia-Book.ttf (UnifrakturMaguntia, J. Lenz)
+- Kalam-Bold.ttf (Kalam, Indian Type Foundry)
+- Cinzel.ttf (Cinzel, Natanael Gama)
+- Lato-Regular.ttf (Lato, Łukasz Dziedzic)
+Texto de la licencia: https://openfontlicense.org

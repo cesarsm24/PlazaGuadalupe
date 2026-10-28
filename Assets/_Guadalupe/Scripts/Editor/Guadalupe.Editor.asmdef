@@ -1,0 +1,20 @@
+{
+    "name": "Guadalupe.Editor",
+    "rootNamespace": "Guadalupe.Editor",
+    "references": [
+        "Guadalupe.Core",
+        "Guadalupe.Ambience",
+        "Unity.AI.Navigation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

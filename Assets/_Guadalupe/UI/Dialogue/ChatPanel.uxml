@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="ChatPanel.uss" />
+    <ui:VisualElement name="chatPanel" class="chat-panel chat-panel--hidden">
+        <ui:VisualElement class="chat-header">
+            <ui:Label text="CONVERSACIÓN" class="chat-overline" />
+            <ui:Label name="chatName" text="Personaje" class="chat-name" />
+            <ui:Label name="chatRole" text="" class="chat-role" />
+        </ui:VisualElement>
+        <ui:VisualElement class="chat-divider" />
+        <ui:ScrollView name="chatLog" class="chat-log" mode="Vertical" horizontal-scroller-visibility="Hidden" />
+        <ui:VisualElement class="chat-compose">
+            <ui:ScrollView name="chatInputBox" class="chat-input-box" mode="Vertical" horizontal-scroller-visibility="Hidden">
+                <ui:TextField name="chatInput" class="chat-input" multiline="true" max-length="300" />
+            </ui:ScrollView>
+            <ui:Button name="chatSend" text="Enviar" class="chat-send" />
+        </ui:VisualElement>
+        <ui:VisualElement class="chat-hints">
+            <ui:Label text="Enter" class="chat-key" />
+            <ui:Label text="enviar" class="chat-hint" />
+            <ui:Label text="Esc" class="chat-key chat-key--spaced" />
+            <ui:Label text="despedirse" class="chat-hint" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

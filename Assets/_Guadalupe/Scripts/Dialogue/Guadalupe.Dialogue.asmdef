@@ -1,0 +1,17 @@
+{
+    "name": "Guadalupe.Dialogue",
+    "rootNamespace": "Guadalupe.Dialogue",
+    "references": [
+        "Guadalupe.Core",
+        "Guadalupe.NPC"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

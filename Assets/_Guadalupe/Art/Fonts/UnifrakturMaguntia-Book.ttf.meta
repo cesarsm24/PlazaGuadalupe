@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0b4da866e14ac44d3bdc62d2cf763489
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 64
+  forceTextureCase: 3
+  characterSpacing: 0
+  characterPadding: 2
+  includeFontData: 1
+  fontNames:
+  - UnifrakturMaguntia
+  fallbackFontReferences: []
+  customCharacters: " !\"&'(),-./0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\xC1\xC9\xCD\xD3\xDA\xDC\xD1\xE1\xE9\xED\xF3\xFA\xFC\xF1\xA1\xBF\xBA\xAA\u2192"
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

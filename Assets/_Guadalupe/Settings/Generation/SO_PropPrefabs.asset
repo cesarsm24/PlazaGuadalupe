@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faac9b23959bf4d8b8d1b89d3e1d9c43, type: 3}
+  m_Name: SO_PropPrefabs
+  m_EditorClassIdentifier: Guadalupe.Editor::Guadalupe.Editor.Environment.PropPrefabs
+  _terraceSet: {fileID: 5260859203427412884, guid: 35e10802519ea4f549c031449611a20b, type: 3}
+  _terraceTable: {fileID: 1625674780040788161, guid: f12c3eb9d0b7042bca7bbb5c349d95fc, type: 3}
+  _streetLamp: {fileID: 5766630296181792085, guid: 8d9e4621983314c4caffa4087dd30f18, type: 3}
+  _fountain: {fileID: 5856365389870725785, guid: 297cf23f9adbf45e8a1298fa7a22eb6f, type: 3}
+  _christmasTree: {fileID: 4229597300390202039, guid: b17c835433da0439cb47ef99ba1909c9, type: 3}
+  _monastery: {fileID: 6471373707800970744, guid: 0d26ad6b8755d44b5bb79fdeb3357546, type: 3}

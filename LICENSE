@@ -1,0 +1,36 @@
+Copyright (c) 2026 César Sánchez Montes. Todos los derechos reservados.
+
+Este proyecto es el trabajo final de la asignatura Computación Gráfica del
+Máster en Ingeniería Informática de la Universidad de Extremadura.
+
+Se permite consultar el código y los recursos propios, descargarlos y ejecutar
+el proyecto con el único fin de verlo y evaluarlo. Sin autorización previa y
+por escrito del autor no se permite:
+
+- copiar, modificar, redistribuir ni publicar el proyecto, en todo o en parte;
+- usarlo, total o parcialmente, en otros trabajos, académicos o no;
+- usarlo con fines comerciales.
+
+EL PROYECTO SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO. EL AUTOR NO SERÁ
+RESPONSABLE DE NINGÚN DAÑO DERIVADO DE SU USO.
+
+--------------------------------------------------------------------------------
+
+Recursos de terceros
+
+Esta licencia solo cubre el código y los recursos propios. Los recursos de
+terceros conservan su licencia original, que prevalece sobre la anterior, y
+los recursos propios derivados de ellos la heredan cuando así lo exige:
+
+- Texturas de la fachada gótica y de la mampostería del monasterio
+  (T_GothicFacade, T_MonasteryMasonry): CC BY-SA.
+- Starter Assets (Assets/ThirdParty/StarterAssets): Unity Companion License.
+- Microsoft Rocketbox: MIT.
+- Texturas de ambientCG: CC0.
+- Tipografías: SIL Open Font License 1.1.
+- Datos del Catastro: CC BY 4.0. OpenStreetMap: ODbL. EU-DEM: Copernicus.
+- Animaciones de Mixamo: según los términos de Adobe.
+
+El detalle y la atribución de cada uno están en la sección «Créditos y
+licencias» del README del repositorio:
+https://github.com/cesarsm24/PlazaGuadalupe

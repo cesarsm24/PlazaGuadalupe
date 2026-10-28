@@ -1,0 +1,101 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MainMenu.uss" />
+    <ui:VisualElement name="menuScreen" class="menu-screen">
+        <ui:VisualElement name="menuPanel" class="menu-panel">
+            <ui:Label text="RECREACIÓN 3D" class="overline" />
+            <ui:Label text="Plaza de Santa María de Guadalupe" class="title" />
+            <ui:Label text="Recorre la plaza frente al Real Monasterio y descubre cómo cambia según el día, la época del año y la hora." class="intro" />
+            <ui:VisualElement class="divider" />
+
+            <ui:Label text="ESCENARIO" class="section-title" />
+            <ui:VisualElement name="scenarioList" class="scenario-list" />
+
+            <ui:Label text="HORA DEL DÍA" class="section-title" />
+            <ui:VisualElement class="period-row">
+                <ui:Button name="morningButton" text="Mañana" class="period-button" />
+                <ui:Button name="afternoonButton" text="Tarde" class="period-button" />
+                <ui:Button name="nightButton" text="Noche" class="period-button period-button--last" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="menu-spacer" />
+            <ui:Button name="startButton" text="Comenzar" class="primary-button" />
+            <ui:VisualElement class="secondary-row">
+                <ui:Button name="controlsButton" text="Controles" class="secondary-button" />
+                <ui:Button name="creditsButton" text="Créditos" class="secondary-button" />
+                <ui:Button name="quitButton" text="Salir" class="secondary-button secondary-button--last" />
+            </ui:VisualElement>
+            <ui:Label text="Computación Gráfica · Máster en Ingeniería Informática · Universidad de Extremadura" class="footer" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="controlsPanel" class="overlay hidden">
+            <ui:VisualElement class="dialog">
+                <ui:Label text="Controles" class="dialog__title" />
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="TECLADO" class="key-row__key" />
+                    <ui:Label text="ACCIÓN" class="key-row__action" />
+                    <ui:Label text="MANDO" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="W A S D / flechas" class="key-row__key" />
+                    <ui:Label text="Andar" class="key-row__action" />
+                    <ui:Label text="Stick izquierdo" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="Ratón" class="key-row__key" />
+                    <ui:Label text="Mirar alrededor" class="key-row__action" />
+                    <ui:Label text="Stick derecho" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="Q / E" class="key-row__key" />
+                    <ui:Label text="Girar la cámara" class="key-row__action" />
+                    <ui:Label text="—" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="Mayúsculas" class="key-row__key" />
+                    <ui:Label text="Correr" class="key-row__action" />
+                    <ui:Label text="Gatillo izquierdo (LT / L2)" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="Espacio" class="key-row__key" />
+                    <ui:Label text="Saltar" class="key-row__action" />
+                    <ui:Label text="Botón inferior (A / Cruz)" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="V" class="key-row__key" />
+                    <ui:Label text="Primera o tercera persona" class="key-row__action" />
+                    <ui:Label text="Select (View / Share)" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="Esc" class="key-row__key" />
+                    <ui:Label text="Abrir este menú" class="key-row__action" />
+                    <ui:Label text="Start (Menu / Options)" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:VisualElement class="key-row">
+                    <ui:Label text="Esc" class="key-row__key" />
+                    <ui:Label text="Volver o cerrar el menú" class="key-row__action" />
+                    <ui:Label text="Botón derecho (B / Círculo)" class="key-row__pad" />
+                </ui:VisualElement>
+                <ui:Button name="controlsBackButton" text="Volver" class="secondary-button secondary-button--last dialog__back" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="creditsPanel" class="overlay hidden">
+            <ui:VisualElement class="dialog">
+                <ui:Label text="Créditos" class="dialog__title" />
+                <ui:VisualElement class="credit-group">
+                    <ui:Label text="PROYECTO" class="credit-group__title" />
+                    <ui:Label text="Proyecto final de Computación Gráfica. Máster en Ingeniería Informática, Universidad de Extremadura." class="credit-group__text" />
+                </ui:VisualElement>
+                <ui:VisualElement class="credit-group">
+                    <ui:Label text="DATOS" class="credit-group__title" />
+                    <ui:Label text="Edificios: © Dirección General del Catastro (CC BY 4.0). Elevaciones: EU-DEM v1.1, © Copernicus Land Monitoring Service. Cartografía: © colaboradores de OpenStreetMap (ODbL)." class="credit-group__text" />
+                </ui:VisualElement>
+                <ui:VisualElement class="credit-group">
+                    <ui:Label text="RECURSOS" class="credit-group__title" />
+                    <ui:Label text="Texturas: ambientCG (CC0). Tipografías: Cinzel, Lato, Kalam y UnifrakturMaguntia (SIL Open Font License). Controlador del jugador: Starter Assets, Unity Technologies." class="credit-group__text" />
+                </ui:VisualElement>
+                <ui:Button name="creditsBackButton" text="Volver" class="secondary-button secondary-button--last dialog__back" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

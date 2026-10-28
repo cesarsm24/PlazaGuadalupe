@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94941b727f254d039ad87394ad5e597, type: 3}
+  m_Name: SO_EnvironmentMaterials
+  m_EditorClassIdentifier: Guadalupe.Editor::Guadalupe.Editor.Environment.EnvironmentMaterials
+  _wallWhite: {fileID: 2100000, guid: 0d5966b3e0fb24eafa13c51c61f64e60, type: 2}
+  _wallCream: {fileID: 2100000, guid: 171d43313844a41e68804dbe7f0a25f3, type: 2}
+  _wallOchre: {fileID: 2100000, guid: 0669f347c2f4e49ca98773564d1659bf, type: 2}
+  _roof: {fileID: 2100000, guid: 43a148440236149fdb130ca2b338c337, type: 2}
+  _stone: {fileID: 2100000, guid: 1010d2303e4804d0baa12e42616a2f2f, type: 2}
+  _stoneLight: {fileID: 2100000, guid: 203c4f826957e489698f05ba9e1631bd, type: 2}
+  _facade: {fileID: 2100000, guid: 5e299f85a915a466da50f527691a6f29, type: 2}
+  _gothicFacade: {fileID: 2100000, guid: 12241a23067b445c4bc0158c63c3e162, type: 2}
+  _granite: {fileID: 2100000, guid: 4c8c2fcfd98b545598dcedbf5c8c4e23, type: 2}
+  _wood: {fileID: 2100000, guid: 0bba112b3e1134146a287ec50be6160b, type: 2}
+  _metal: {fileID: 2100000, guid: 97cf553902e8b41e2a0b7ec9b8143f1d, type: 2}
+  _canvas: {fileID: 2100000, guid: 3b1b8c2ce600a4742812614b47c59e52, type: 2}
+  _shadow: {fileID: 2100000, guid: 9a542fee647f5445dba23aa6485465e2, type: 2}
+  _window: {fileID: 2100000, guid: af14b3334a7ce4c65a7fb9c66e5090fe, type: 2}
+  _door: {fileID: 2100000, guid: 53744295117984c449e7da914c89f99f, type: 2}
+  _zocalo: {fileID: 2100000, guid: 71fe1c67ef61a4499a49bf753cc6c848, type: 2}
+  _ashlar: {fileID: 2100000, guid: cafaf1fc1ae8d4cb087191765ab26642, type: 2}
+  _bronze: {fileID: 2100000, guid: 879c910dc572a4ac0b8d55d4e86f934f, type: 2}
+  _awningRed: {fileID: 2100000, guid: 500f768dd798d46d0bec28ae56d1f85c, type: 2}
+  _awningGreen: {fileID: 2100000, guid: e05bd9e93c53244a7a0b1ed631e2d596, type: 2}
+  _lanternGlass: {fileID: 2100000, guid: 8d4db3d85069a46fea3e0d8e5661e8cc, type: 2}
+  _greenTile: {fileID: 2100000, guid: 8f6b85038b3254108a0fd869bb94fb79, type: 2}
+  _beam: {fileID: 2100000, guid: 9cded512691104a349eacfcecb1b35b1, type: 2}
+  _pavingSlab: {fileID: 2100000, guid: 513824ddce5a24752bb8cec48bc3668e, type: 2}
+  _atriumFloor: {fileID: 2100000, guid: 3d707e9c4cd374cb5b3a8c61e7bd71c2, type: 2}
+  _greenBronze: {fileID: 2100000, guid: ed22fcaf90eb540ee83e0f389b79c56a, type: 2}
+  _gold: {fileID: 2100000, guid: b3614670a6c56488681f0d459eedfeae, type: 2}
+  _terracotta: {fileID: 2100000, guid: e299338730b6f4c039bb6eceb73e75a1, type: 2}
+  _foliage: {fileID: 2100000, guid: c5b3880a6fccd4e6289cd0427110c616, type: 2}
+  _windowFrame: {fileID: 2100000, guid: 469c2d0dd146140ef89bcdf70d779b00, type: 2}
+  _wallSalmon: {fileID: 2100000, guid: 169ee6fd6888046abbed256da0176b5c, type: 2}
+  _wallAshlar: {fileID: 2100000, guid: f75d7230b9d8d4fc786e28d6f57111bf, type: 2}
+  _zocaloBrown: {fileID: 2100000, guid: 0409f19434f284a11ad748b006637735, type: 2}
+  _zocaloRed: {fileID: 2100000, guid: 5ffe26290b9054ca6a729c1a94d45c2c, type: 2}
+  _zocaloOchre: {fileID: 2100000, guid: 7fc580e8e37a140ecb2384f86c519ce8, type: 2}
+  _zocaloBrick: {fileID: 2100000, guid: 433e9d01d402e4343b018b6d47885d15, type: 2}
+  _zocaloAshlar: {fileID: 2100000, guid: 17041ad4ba6064991afbe2caacf45c38, type: 2}
+  _carpentryGreen: {fileID: 2100000, guid: 78d6eb4e8fbfb4a16b050e99b27c73ad, type: 2}
+  _wallWhiteWarm: {fileID: 2100000, guid: 39d2dff37866443f38e6ebeaeb21805a, type: 2}
+  _wallWhiteGrey: {fileID: 2100000, guid: c72ce462359b245449b5093bef86356f, type: 2}
+  _roofDark: {fileID: 2100000, guid: 725541c0071ae4d5e9116e4ddc2a074e, type: 2}
+  _roofLight: {fileID: 2100000, guid: 1ac37269bd3854b07b3056403e057739, type: 2}
+  _windowLit: {fileID: 2100000, guid: d38edb8baf1a346c5845ff8941473f55, type: 2}
+  _grime: {fileID: 2100000, guid: 4f3aa46128273428b994614d79f2df5c, type: 2}
+  _tileBlue: {fileID: 2100000, guid: 65f8f473fa74c4673a0971a2fd2db65d, type: 2}
+  _groundLayer: {fileID: 8574412962073106934, guid: 8fb541ddc54ed4e07a2956f3e6644aee, type: 2}
+  _streetLayer: {fileID: 8574412962073106934, guid: 08b6e9b536645489f8e27279423638e8, type: 2}
+  _pavingLayer: {fileID: 8574412962073106934, guid: 6e52ea056d898483fb0aaa688d0829a0, type: 2}
+  _pavingAltLayer: {fileID: 8574412962073106934, guid: 1454a5794a74f4e92acfa9badbf726a4, type: 2}
+  _signFontGothic: {fileID: 12800000, guid: 0b4da866e14ac44d3bdc62d2cf763489, type: 3}
+  _signFontHand: {fileID: 12800000, guid: fed3907496018489894703a1082de5f1, type: 3}
+  _signFontRoman: {fileID: 12800000, guid: d9daca7814bc54ab6a1799a4bad0c86d, type: 3}
+  _signPlain: {fileID: 2100000, guid: 5f0c2edf84a064c31bcd8733e39284ed, type: 2}
+  _signGothic: {fileID: 2100000, guid: 6b4c4e7fb475f4e6bb83cd966803e368, type: 2}
+  _signHand: {fileID: 2100000, guid: 2b4dc42c794cc4b8c95a31dfb280e3c7, type: 2}
+  _signRoman: {fileID: 2100000, guid: 2d7855ece78d247aa9e65f902c1f8684, type: 2}
+  _lightsNet: {fileID: 2100000, guid: 9b71165878327458b826f5fdb79cd6eb, type: 2}
+  _lightsCurtain: {fileID: 2100000, guid: 364887a39e9c74f83a298a2efba2611f, type: 2}
+  _lightsSolid: {fileID: 2100000, guid: ccd9c7367f83b48f58b857a678334427, type: 2}
