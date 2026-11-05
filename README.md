@@ -4,6 +4,8 @@ Recreación 3D interactiva en Unity de la Plaza de Santa María de Guadalupe (C�
 
 Proyecto final de la asignatura **Computación Gráfica** — Máster en Ingeniería Informática, Universidad de Extremadura.
 
+El vídeo de demostración, las capturas y las descargas están en la [web del proyecto](https://cesarsm24.github.io/PlazaGuadalupe/).
+
 ## Capturas
 
 ![El Real Monasterio desde la plaza](Media/monasterio.jpg)

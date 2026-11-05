@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plaza de Santa María de Guadalupe · Recreación 3D</title>
+  <meta name="description" content="Recreación en Unity de la Plaza de Santa María de Guadalupe (Cáceres), frente al Real Monasterio. Se recorre de día o de noche y se puede hablar con la gente del pueblo.">
+  <meta property="og:title" content="Plaza de Santa María de Guadalupe · Recreación 3D">
+  <meta property="og:description" content="La plaza frente al Real Monasterio de Guadalupe, en Unity, con turistas y vecinos con los que se puede hablar.">
+  <meta property="og:image" content="capturas/monasterio.jpg">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Computación Gráfica · Máster en Ingeniería Informática</p>
+      <h1><span class="pre">Recreación 3D</span>Plaza de Santa María de Guadalupe</h1>
+      <p class="lead">Una recreación jugable de la plaza que hay frente al Real Monasterio de Guadalupe, en Cáceres. Se puede recorrer de día o de noche, un martes cualquiera o en Navidad, y pararse a hablar con la gente del pueblo.</p>
+      <div class="actions">
+        <a class="btn primary" href="#descargar">Descargar</a>
+        <a class="btn" href="https://github.com/cesarsm24/PlazaGuadalupe">Ver el código</a>
+      </div>
+      <p class="meta">Versión 1.0 · macOS, Windows y Linux · Unity 6</p>
+    </div>
+    <figure class="hero-photo">
+      <img src="capturas/monasterio.jpg" alt="El Real Monasterio desde la plaza" width="1600" height="900">
+    </figure>
+  </div>
+</header>
+
+<main>
+
+  <section class="wrap section" id="demo">
+    <h2>Demostración</h2>
+    <p class="section-lead">Dos minutos y medio de partida. Primero, una tarde de fin de semana con Fray Paulino. Después, una noche de Navidad con José Luis, que ya sabe cómo te llamas porque se lo dijiste al fraile.</p>
+    <video class="demo" controls preload="metadata" playsinline poster="media/demo-poster.jpg">
+      <source src="media/demo.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="band">
+    <div class="wrap section">
+      <h2>Qué incluye</h2>
+      <div class="features">
+        <article>
+          <h3>La plaza y el monasterio</h3>
+          <p>La escalinata, la lonja y el atrio, la fuente, los soportales corridos y los arcos de Sevilla y del Chorro Gordo. Ninguna casa es igual a la de al lado, porque cambian el color, los balcones, las plantas y los rótulos de las tiendas.</p>
+        </article>
+        <article>
+          <h3>Día y noche</h3>
+          <p>El sol se coloca según la fecha y la hora en Guadalupe. Al anochecer se encienden los faroles y los focos de la fachada, y la campana del monasterio sigue tocando cada cuarto de hora.</p>
+        </article>
+        <article>
+          <h3>Escenarios</h3>
+          <p>Cuatro escenarios (día normal, fin de semana, gran peregrinación y Navidad) en tres franjas horarias. Se eligen en el menú y la plaza cambia sin recargar nada.</p>
+        </article>
+        <article>
+          <h3>Turistas autónomos</h3>
+          <p>Entran por las bocacalles, solos, en pareja o en familia, y hacen de una a tres paradas antes de irse. Para sentarse en una terraza apartan la silla y luego la vuelven a dejar en su sitio.</p>
+        </article>
+        <article>
+          <h3>Personajes del pueblo</h3>
+          <p>La primera vez se presentan. Las siguientes comentan la hora o la gente que hay, y si ya les has dicho tu nombre, te llaman por él.</p>
+        </article>
+        <article>
+          <h3>Conversación con IA</h3>
+          <p>Se escribe con el teclado y contestan con Google Gemini, a partir de su perfil, la hora, el escenario y lo que les hayas contado a los otros.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section" id="ciclo">
+    <h2>De la tarde a la noche</h2>
+    <p class="section-lead">La misma vista de la plaza a dos horas distintas. Arrastra la barra para pasar de una a otra.</p>
+    <div class="compare" style="--pos: 50%">
+      <img src="img-docs/plaza-noche.jpg" alt="La plaza de noche, con los focos del monasterio" width="1280" height="720">
+      <div class="compare-top">
+        <img src="img-docs/plaza-tarde.jpg" alt="La plaza por la tarde" width="1280" height="720">
+      </div>
+      <span class="compare-label left">Tarde</span>
+      <span class="compare-label right">Noche</span>
+      <span class="compare-handle" aria-hidden="true"></span>
+      <input type="range" min="0" max="100" value="50" aria-label="Comparar tarde y noche">
+    </div>
+  </section>
+
+  <section class="wrap section" id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <figure class="wide"><img src="capturas/monasterio-lateral.jpg" alt="Fachada, torres y ala este desde el atrio" loading="lazy"><figcaption>El monasterio desde el atrio</figcaption></figure>
+      <figure><img src="capturas/terrazas.jpg" alt="Terrazas bajo los soportales" loading="lazy"><figcaption>Terrazas bajo los soportales</figcaption></figure>
+      <figure><img src="capturas/soportales.jpg" alt="Soportales y rótulos" loading="lazy"><figcaption>Soportales y rótulos</figcaption></figure>
+      <figure class="wide right"><img src="img-docs/vista-aerea.jpg" alt="Vista aérea de la plaza, con el monasterio al fondo" loading="lazy"><figcaption>Vista aérea</figcaption></figure>
+      <figure><img src="capturas/noche.jpg" alt="La plaza de noche" loading="lazy"><figcaption>De noche</figcaption></figure>
+      <figure><img src="capturas/navidad.jpg" alt="La plaza en Navidad" loading="lazy"><figcaption>En Navidad</figcaption></figure>
+      <figure><img src="capturas/jugador.jpg" alt="Recorriendo la plaza hacia la fuente" loading="lazy"><figcaption>Hacia la fuente</figcaption></figure>
+      <figure><img src="capturas/arco-sevilla.jpg" alt="Arco de Sevilla" loading="lazy"><figcaption>Arco de Sevilla</figcaption></figure>
+      <figure><img src="img-docs/menu.jpg" alt="Menú principal sobre la plaza" loading="lazy"><figcaption>Elección de escenario y hora</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap section" id="personajes">
+      <h2>Personajes</h2>
+      <img class="cast" src="img-docs/personajes.jpg" alt="Fray Paulino, José Luis, Paqui, Marisé e Inés María" loading="lazy" width="3200" height="900">
+      <div class="people">
+        <article><h3>Fray Paulino</h3><p>Franciscano del monasterio. Anda por el atrio, entre la portería y lo alto de la escalinata, y saluda con «Paz y bien».</p></article>
+        <article><h3>José Luis</h3><p>Lleva el Café Bar Cerezo, bajo los soportales del lado este. Es serio, pero te da la mano antes de hablar.</p></article>
+        <article><h3>Paqui</h3><p>Tiene el Unide Alimentación en el frente sur, al lado del puesto de fruta. Práctica y espabilada.</p></article>
+        <article><h3>Marisé</h3><p>Guía turística de la comarca y muy de campo. Suele estar junto a la oficina de turismo.</p></article>
+        <article><h3>Inés María</h3><p>Vecina de toda la vida, sentada en la terraza del Mesón Extremeño con su Coca-Cola. Si pasas cerca, te llama.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section split" id="conversacion">
+    <div>
+      <h2>Habla con ellos</h2>
+      <p>Acércate a uno, ponte de cara y pulsa <kbd>F</kbd>. Empieza hablando él y tú le contestas en el chat. Su respuesta va saliendo mientras se genera, acompañada de gestos.</p>
+      <p>Al despedirte, el personaje guarda un resumen de lo que habéis hablado y el resto lo conoce. Por eso, si le dices tu nombre a Fray Paulino, luego José Luis te saluda por él.</p>
+    </div>
+    <img src="img-docs/chat.jpg" alt="Conversación con Paqui" loading="lazy" width="1688" height="916">
+  </section>
+
+  <section class="band">
+    <div class="wrap section" id="descargar">
+      <h2>Descargar</h2>
+      <p class="section-lead">Descomprime el ZIP y abre la aplicación. Para hablar con los personajes hace falta una clave de la API de Gemini, que se saca gratis en Google AI Studio. La <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/instalacion.md">guía rápida</a> explica dónde ponerla.</p>
+      <div class="downloads">
+        <a class="dl" href="https://github.com/cesarsm24/PlazaGuadalupe/releases/latest/download/PlazaGuadalupe-macOS.zip"><strong>macOS</strong><span>ZIP · 253 MB</span></a>
+        <a class="dl" href="https://github.com/cesarsm24/PlazaGuadalupe/releases/latest/download/PlazaGuadalupe-Windows.zip"><strong>Windows</strong><span>ZIP · 241 MB</span></a>
+        <a class="dl" href="https://github.com/cesarsm24/PlazaGuadalupe/releases/latest/download/PlazaGuadalupe-Linux.zip"><strong>Linux</strong><span>ZIP · 247 MB</span></a>
+      </div>
+      <p class="small">Para abrir el proyecto hacen falta Unity 6000.3.25f1 y Git LFS. Las versiones anteriores están en <a href="https://github.com/cesarsm24/PlazaGuadalupe/releases">Releases</a>.</p>
+    </div>
+  </section>
+
+  <section class="wrap section" id="tecnico">
+    <h2>Cómo está hecho</h2>
+    <div class="tech">
+      <div class="tech-cards">
+        <article>
+          <span class="tech-num">01</span>
+          <h3>Entorno generado</h3>
+          <p>Las casas, el terreno y las calles salen de un generador hecho para el proyecto, que lee los edificios del Catastro, las elevaciones de EU-DEM y la cartografía de OpenStreetMap. El monasterio, la fuente y el mobiliario van aparte, cada uno con su prefab, así que la plaza se puede regenerar sin tocarlos.</p>
+        </article>
+        <article>
+          <span class="tech-num">02</span>
+          <h3>Una sola escena</h3>
+          <p>El menú y el chat son paneles de UI Toolkit dibujados encima de la plaza, de modo que nunca hay pantallas de carga. El código se reparte en seis ensamblados y <code>Core</code>, que guarda el estado de la visita, no depende de ninguno.</p>
+        </article>
+      </div>
+      <article class="stat">
+        <span class="tech-num">03</span>
+        <h3>Rendimiento</h3>
+        <p class="stat-caption">Draw calls desde la lonja hacia las terrazas</p>
+        <div class="bars">
+          <div class="bar"><span class="bar-label">Antes</span><span class="bar-fill" style="--w: 100%"></span><span class="bar-value">3.810</span></div>
+          <div class="bar after"><span class="bar-label">Después</span><span class="bar-fill" style="--w: 49%"></span><span class="bar-value">1.880</span></div>
+        </div>
+        <p class="stat-big">−51 %</p>
+        <ul class="chips">
+          <li>Batching estático</li><li>LOD por distancia</li><li>Occlusion culling</li><li>Sombras a 80 m</li>
+        </ul>
+      </article>
+    </div>
+    <p class="stack">Unity 6.3 LTS · URP · UI Toolkit · Input System · Cinemachine · AI Navigation · Google Gemini · MakeHuman · Microsoft Rocketbox · Mixamo</p>
+
+    <div class="docs">
+      <p class="docs-title">Documentación</p>
+      <nav>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/instalacion.md">Guía rápida</a>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/arquitectura.md">Arquitectura</a>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/entorno.md">Entorno</a>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/personajes.md">Personajes</a>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/rendimiento.md">Rendimiento</a>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/decisiones.md">Decisiones</a>
+        <a href="https://github.com/cesarsm24/PlazaGuadalupe/blob/main/docs/uso-de-ia.md">Uso de IA</a>
+      </nav>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p class="author">César Sánchez Montes</p>
+    <p>Computación Gráfica · Máster en Ingeniería Informática<br>Universidad de Extremadura</p>
+    <div class="logos">
+      <img src="img/logo-epcc.png" alt="Escuela Politécnica de Cáceres">
+      <img src="img/logo-uex.png" alt="Universidad de Extremadura">
+    </div>
+    <p class="small"><a href="https://github.com/cesarsm24/PlazaGuadalupe">Código en GitHub</a> · <a href="https://github.com/cesarsm24/PlazaGuadalupe#créditos-y-licencias">Créditos y licencias</a></p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.compare').forEach(function (el) {
+    var input = el.querySelector('input');
+    input.addEventListener('input', function () { el.style.setProperty('--pos', input.value + '%'); });
+  });
+</script>
+</body>
+</html>
